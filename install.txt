@@ -1,0 +1,20 @@
+--------------------------Install-----------------------------
+
+npm create vite@latest
+
+project name ==> .
+
+
+current directory... => ignore files and ccontinue
+
+Package name:  ==> "project name" for example react
+
+
+select a framework => React 
+
+select a variant: => Typescript + SWC
+
+Use Vite 8 beta => No
+
+
+install with npm and start now: => Yes 
