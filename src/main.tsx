@@ -5,11 +5,11 @@ const markUp = (
   <ul>
     {students.map(student => (
       <li key={student.id}>
-        <p>{student.name}</p>
-        <p>{student.age}</p>
-        <p>{student.course}</p>
-        <p>{student.isOnline}</p>
-        <img src={student.avatar} />
+        <p>Name: {student.name}</p>
+        <p>Age: {student.age}</p>
+        <p>Course: {student.course}</p>
+        <p>{student.isOnline ? 'Online' : 'Offline'}</p>
+        <img src={student.avatar} alt="avatar" />
       </li>
     ))}
   </ul>
